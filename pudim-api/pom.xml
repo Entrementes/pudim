@@ -12,11 +12,6 @@
 	<artifactId>pudim-api</artifactId>
 
 	<packaging>jar</packaging>
-	
-	<scm>
-		<connection>xxxxx</connection>
-		<developerConnection>xxxxxxx</developerConnection>
-	</scm>
 
 	<dependencies>
 		<dependency>
@@ -27,22 +22,7 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<skip>true</skip>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-		</plugins>
+		<finalName>pudim-api</finalName>
 	</build>
+
 </project>
