@@ -3,9 +3,10 @@
   <groupId>org.entrementes</groupId>
   <artifactId>pudim-api</artifactId>
   <versioning>
+    <release>0.0.7</release>
     <versions>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.7</version>
     </versions>
-    <lastUpdated>20150411225221</lastUpdated>
+    <lastUpdated>20150411225911</lastUpdated>
   </versioning>
 </metadata>
