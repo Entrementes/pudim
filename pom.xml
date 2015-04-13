@@ -9,7 +9,7 @@
 	</modules>
 
 	<artifactId>pudim</artifactId>
-	<version>0.0.7</version>
+	<version>0.0.7.1</version>
 	<groupId>org.entrementes</groupId>
 	<packaging>pom</packaging>
 
