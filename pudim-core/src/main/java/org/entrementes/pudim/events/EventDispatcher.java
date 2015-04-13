@@ -39,7 +39,7 @@ public class EventDispatcher {
 			this.handlers = new HashMap<Type, EventInterceptor>();
 		}
 		forward(new LogEntryBuilder().level("info")
-				.message("MercatorEventDispatcher: " + this.handlers.size() + " handlers registred.")
+				.message("EventDispatcher: " + this.handlers.size() + " handlers registred.")
 				.build());
 	}
 

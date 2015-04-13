@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "MercatorPage", namespace = "http://www.mobicare.com/wifi/1_0_0")
+@XmlType(name = "Page")
 public class Page<T> {
 	
 	@XmlElementWrapper(name="body")

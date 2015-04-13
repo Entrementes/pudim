@@ -17,7 +17,7 @@ public class PudimEventInterceptor {
 	@PostConstruct
 	private void registerHandlers(){
 		this.dispatcher.forward(new LogEntryBuilder().level("info")
-				.message("MercatorInterceptor: registred.")
+				.message("PudimEventInterceptor: registred.")
 				.build());
 	}
 	

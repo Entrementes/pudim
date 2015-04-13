@@ -47,7 +47,7 @@ public class HttpExceptionHandler {
 	@SuppressWarnings("rawtypes")
 	@ExceptionHandler(value = ApplicationException.class)
 	@ResponseBody
-	protected ResponseEntity<ServiceRequest> handleMercatorException(final HttpServletRequest request, final ApplicationException exception, Locale locale) {
+	protected ResponseEntity<ServiceRequest> handleException(final HttpServletRequest request, final ApplicationException exception, Locale locale) {
 		ResponseEntity<ServiceRequest> result = buildMessage(exception,locale);
 		this.dispatcher.forward(result);
 		return result;
