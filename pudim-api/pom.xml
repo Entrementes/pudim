@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.entrementes</groupId>
 		<artifactId>pudim</artifactId>
-		<version>0.0.7.1</version>
+		<version>0.0.9</version>
 	</parent>
 	
 	<artifactId>pudim-api</artifactId>
