@@ -26,7 +26,7 @@ public class PudimEventInterceptor {
 		this.dispatcher = dispatcher;
 	}
 
-	@Pointcut(value = "execution(@com.mobicare.wifi.util.pudim.events.EventHandler * *(..))")
+	@Pointcut(value = "execution(@org.entrementes.pudim.events.EventHandler * *(..))")
     public void anyMethod() {
     }
 
