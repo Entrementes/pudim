@@ -1,6 +1,7 @@
 package org.entrementes.pudim.web;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.entrementes.pudim.events.EventInterceptor;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HttpResponseEvent implements EventInterceptor<ResponseEntity>{
 	
-	private final Logger LOGGER = Logger.getLogger(HttpResponseEvent.class);
+	private final Logger LOGGER = LoggerFactory.getLogger(HttpResponseEvent.class);
 	
 	private ObjectMapper mapper = new ObjectMapper();
 	

@@ -1,15 +1,19 @@
 package org.entrementes.pudim.events;
 
-import org.apache.log4j.Logger;
+
+
 import org.codehaus.jackson.map.ObjectMapper;
 import org.entrementes.pudim.events.EventInterceptor;
 import org.entrementes.pudim.model.LogEntry;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+
 
 @Component
 public class LoggerEventHandler implements EventInterceptor<LogEntry>{
 
-	private final Logger LOGGER = Logger.getLogger(LoggerEventHandler.class);
+	private final Logger LOGGER = LoggerFactory.getLogger(LoggerEventHandler.class);
 
 	private ObjectMapper mapper = new ObjectMapper();
 	

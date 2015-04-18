@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 import org.entrementes.pudim.events.EventDispatcher;
 import org.entrementes.pudim.events.EventInterceptor;

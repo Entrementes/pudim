@@ -7,19 +7,15 @@
 		<groupId>org.entrementes</groupId>
 		<artifactId>pudim</artifactId>
 		<version>0.1.0-SNAPSHOT</version>
+		<relativePath></relativePath>
 	</parent>
 	
 	<artifactId>pudim-api</artifactId>
-
 	<packaging>jar</packaging>
 
-	<dependencies>
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>${validationApi.version}</version>
-		</dependency>
-	</dependencies>
+	<properties>
+		
+	</properties>
 
 	<build>
 		<finalName>pudim-api</finalName>
